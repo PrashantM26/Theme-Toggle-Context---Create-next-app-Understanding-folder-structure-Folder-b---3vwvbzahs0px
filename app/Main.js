@@ -1,12 +1,12 @@
 'use client'
 import React from 'react';
-import { useTheme } from './components/ThemeProvider';
+//import { useTheme } from './components/ThemeProvider';
 import { LocalThemedBox } from './components/LocalThemedBox';
 import { ThemeContext } from './components/ThemeProvider';
 
 const Main = () => {
-    const { theme } = useTheme();
-    const { toggleTheme } = React.useContext(ThemeContext);
+    //const { theme } = useTheme();
+    const { theme, toggleTheme } = React.useContext(ThemeContext);
     return(
         <div className={`container bg-${theme}`} id="themed-page">
             <p className={`txt-${theme}`} id="themed-text-container">
