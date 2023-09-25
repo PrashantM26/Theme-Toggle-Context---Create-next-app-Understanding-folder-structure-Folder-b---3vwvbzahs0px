@@ -3,9 +3,9 @@ import React, { createContext, useState, useContext } from 'react';
 
 const ThemeContext = createContext()
 
-export const useTheme = () => {
+/*export const useTheme = () => {
   return useContext(ThemeContext);
-};
+};*/
 
 
 const ThemeProvider = ({ children }) => {
