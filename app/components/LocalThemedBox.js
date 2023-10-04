@@ -63,7 +63,7 @@ const LocalThemedBox = () => {
           });
         }}
       >
-        toggle local theme to {theme.isLight ? "dark" : "light"}
+        Toggle local theme to {(innerTheme.isLight) && (theme.isLight) ? "dark" : "light"}
       </button>
     </div>
   );
