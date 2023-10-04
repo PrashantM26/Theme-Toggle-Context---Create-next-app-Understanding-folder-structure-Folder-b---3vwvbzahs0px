@@ -56,7 +56,7 @@ const Main = () => {
         className={`btn ${"btn-" + (theme.isLight ? "light" : "dark")}`}
         id="themed-button"
       >
-        Themed Button
+        Sup
       </button>
       <LocalThemedBox />
     </div>
